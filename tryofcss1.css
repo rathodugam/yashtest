@@ -1,0 +1,52 @@
+body {
+    background-color: snow;
+    margin:  0;
+    padding: 0;
+}
+.number{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 300px;
+}
+.read{
+    width: 50%;
+    background-color: red;
+}
+.read1{
+    width: 50%;
+    background-color: saddlebrown;
+}
+.read2{
+    width: 50%;
+    background-color: silver;
+}
+.read3{
+    width: 50%;
+    background-color: yellow;
+
+}
+@media screen and (min-width:480px) and (max-width:767px){
+    .read{
+        width: 50%;
+        order: 1;
+        background-color: red;
+    }
+    .read1{
+        width: 50%;
+        order: -1;
+        background-color: saddlebrown;
+    }
+    .read2{
+        width: 100%;
+        order: 3;
+        background-color: silver;
+    }
+    .read3{
+        width: 100%;
+        order: 2;
+        background-color: yellow;
+    
+    }
+
+}

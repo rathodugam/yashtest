@@ -1,0 +1,110 @@
+ /* :root{
+font - size: 16px;
+} */
+body {
+    background-color: snow;
+
+    margin:  032;
+    padding: 0;
+}
+.container{
+    display : block;
+    margin : 50px;
+    background: #2c2c2c;
+    border: 1px solid #2c2c2c;
+    border-radius : 10px;
+    box-shadow: 0px 3px 20px 2px black;
+    display: block;
+}
+
+.heading{
+    color: rgb(95, 88, 89);
+    font-family:"plsyfair display", serif;
+    font-size:120px;
+    font-weight:700;
+    margin-bottom:5px;
+    padding:40px;
+}
+.subheding{
+    color: white;
+    font-family:"playfair display" , serif;
+    font-size:21px;
+    margin:0;
+    padding:0 30px 30px ;
+}
+.subheding button{
+    
+    background:rebeccapurple;
+    border: none;
+    border-radius :5px;
+    color: white;
+    font-family:"istok web", sans-serif ;
+    font-size :16px;
+    letter-spacing:8px;
+    margin-top:20px;
+    padding:10px;
+
+}
+.subheding button:hover{
+    cursor:pointer;
+    box-shadow: 0 3px 20px 0 white;
+}
+.row{
+    background-color: snow;
+    margin-top:30px;
+}
+.icon{
+    border:1px solid #333333;
+    border-radius:5px;
+    box-shadow:0 px 3px 20px 2px #3c3c3c;
+    width:25px;
+    margin-left: 10p;
+}
+.image{
+    margin-left: 10px;
+    position: relative;
+    width: 50%;
+}
+.details{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+}
+@media screen and (min-width:480px) and (max-width:767px){
+    .container{
+        display : block;
+        margin : 25px;
+        background:rgb(122, 103, 228);
+        border: 1px solid #2c2c2c;
+        border-radius : 15px;
+        box-shadow: 0px 3px 20px 2px black;
+        display: block;
+    }
+    .heading{
+        color: rgb(211, 216, 221);
+        font-family:"plsyfair display", serif;
+        font-size:50px;
+        font-weight:10;
+        margin-bottom:2px;
+        padding:3px;
+    }
+}
+@media screen and (max-width:480px){
+    .container{
+        display : block;
+        margin : 5px;
+        background:rgb(69, 71, 69);
+        border: 1px solid #2c2c2c;
+        border-radius : 10px;
+        box-shadow: 0px 3px 20px 2px black;
+        display: block;
+    }
+    .heading{
+        color: rgb(81, 199, 150);
+        font-family:"plsyfair display", serif;
+        font-size:12px;
+        font-weight:10;
+        margin-bottom:5px;
+        padding:4px;
+}
+}
